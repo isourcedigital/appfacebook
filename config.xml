@@ -9,7 +9,7 @@
         Test
     </description>
 
-    
+    <preference name="phonegap-version" value="2.7.0" />
     
     <gap:plugin name="FacebookConnect">
    <param name="APP_ID" value="225584254229671" />
