@@ -45,13 +45,5 @@ var app = {
         receivedElement.setAttribute('style', 'display:block;');
 
         console.log('Received Event: ' + id);
-        //navigator.splashscreen.show();
-        
-        var ref = window.open('http://itwarelatam.com', '_self', 'location=no,transitionstyle=crossdissolve,toolbar=no');
-        ref.addEventListener('loadstart', function(event) {console.log("arranco!"); });
-        ref.addEventListener('loadstop', function(event) {console.log("Stop"); });
-        ref.addEventListener('loaderror', function(event) {console.log("Error"); });
-        ref.addEventListener('exit', function(event) { console.log("BYe!"); });
-        
     }
 };
